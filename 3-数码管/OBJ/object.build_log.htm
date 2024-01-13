@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Äþ×ÓÏ£, 1, LIC=D0D7S-L0Q0Q-45FT5-GNF0F-WSZ44-YPYS4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\keil51\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\stm32F407 school\3-ÊýÂë¹Ü\USER\object.uvprojx
+Project File Date:  11/09/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil51\ARM\ARMCC\Bin'
+Build target 'object'
+compiling SEG_8.c...
+..\HARDWARE\SEG_8.c(23): error:  #20: identifier "t" is undefined
+  	t=seg_8[num];
+..\HARDWARE\SEG_8.c(23): error:  #20: identifier "seg_8" is undefined
+  	t=seg_8[num];
+..\HARDWARE\SEG_8.c(23): error:  #20: identifier "num" is undefined
+  	t=seg_8[num];
+..\HARDWARE\SEG_8.c(24): warning:  #223-D: function "SEG_Data_Write" declared implicitly
+  	SEG_Data_Write(t);
+..\HARDWARE\SEG_8.c: 1 warning, 3 errors
+compiling main.c...
+main.c(14): error:  #140: too many arguments in function call
+  			SEG_display(1,i);
+main.c(15): error:  #140: too many arguments in function call
+  			SEG_display(2,i);
+main.c(16): error:  #140: too many arguments in function call
+  			SEG_display(3,i);
+main.c(17): error:  #140: too many arguments in function call
+  			SEG_display(4,i);
+main.c(26): warning:  #1-D: last line of file ends without a newline
+   
+main.c: 1 warning, 4 errors
+"..\OBJ\object.axf" - 7 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_object
+  D:\keil51\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
